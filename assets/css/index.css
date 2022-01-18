@@ -1,0 +1,73 @@
+/*
+    Cassian Chroboczek - Random String Generator - 2022
+    JavaScript (JS)
+    https://github.com/cassi-dev
+    File: index.css
+*/
+
+* {
+    box-sizing: none;
+}
+
+html {
+    background-color: white;
+}
+
+.head .text {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.head .text p {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.gen .button {
+    text-align: center;
+}
+
+.gen .button input {
+    height: 55px;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.gen .button button {
+    height: 55px;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 1rem;
+
+    font-size: 1rem;
+}
+
+.gen .button input:hover {
+    color: white;
+}
+
+.gen .button button:hover {
+    color: white;
+}
+
+.gen .output {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.gen .output p {
+    text-decoration: none;
+    font-size: 2rem;
+}

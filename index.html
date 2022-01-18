@@ -1,0 +1,45 @@
+<!--
+    Cassian Chroboczek - Random String Generator - 2022
+    JavaScript (JS)
+    https://github.com/cassi-dev
+    File: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <!--Meta Charset-->
+        <meta charset="UTF-8">
+        <!--Website Titel-->
+        <title>String Generator</title>
+        <!--Website Logo-->
+        <link rel="icon" href="./assets/img/keys.png">
+        <!--CSS Import-->
+        <link rel="stylesheet" href="./assets/css/index.css">
+
+    </head>
+
+    <body>
+        <div class="head">
+            <div class="text">
+                <p>Random String Generator</p>
+            </div>
+        </div>
+
+        <div class="gen">
+            <div class="button">
+                <input type="button" value="Generate Random String" onclick="string();">
+                <button onclick="stringcopy()">Copy String</button>
+            </div>
+        </div>
+
+        <div class="gen">
+            <div class="output">
+                <p>String: "<a id="string"></a>"</p>
+            </div>
+        </div>
+
+        <!--JS Import-->
+        <script src="./assets/js/string.js"></script>
+    </body>
+</html>
